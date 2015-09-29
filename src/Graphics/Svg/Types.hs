@@ -282,7 +282,7 @@ data FillRule
 -- | Describe the content of the `transformation` attribute.
 -- see `_transform` and `transform`.
 data Transformation
-    = -- | Directly encode the translation matrix.
+    = -- | Directly encode the transformation matrix.
       TransformMatrix Coord Coord Coord
                       Coord Coord Coord
       -- | Translation along a vector
